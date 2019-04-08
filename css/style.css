@@ -53,3 +53,13 @@ body{
   min-height:100%;
   min-width:100%;
 }
+/****************** header video overlay */
+.header-overlay{
+  height:100vh;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100vw;
+  z-index:1;
+  background: rgba(0,0,0,0.5);
+}
