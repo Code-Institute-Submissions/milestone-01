@@ -7,6 +7,7 @@ font-family: 'Oswald', sans-serif;
 * {
   box-sizing: border-box;
 }
+
 body{
   margin:0;
   padding:0;
@@ -86,3 +87,41 @@ body{
 .header-content .rounded-circle{
   border:#f8f9fa solid 5px;
 }
+
+
+
+
+/****************** sections content */
+
+
+
+
+/****************** section-1 about */
+
+
+
+
+/****************** section-2 discography */
+
+.overlay-2{
+  /* background-color:rgba(255, 255, 255, 0.9); */
+  background-color:rgba(255, 255, 255, 0.5);
+}
+
+.section-2 .card{
+  text-align: center;  
+  background-color: rgba(49, 49, 48, 0.5);
+  border: none;
+}
+
+.section-2 .card-title{
+  font-size:1rem;
+}
+
+
+/****************** section-3 gallery */
+
+
+
+
+/****************** section-4 booking contact */
