@@ -73,3 +73,7 @@ body{
 .header-content{
   z-index:10;
 }
+.header-content .rounded-circle{
+  /* border:#f8f9fa solid 5px; */
+  border: var(--light) solid 5px;
+}
