@@ -5,6 +5,7 @@ font-family: 'Oswald', sans-serif;
  */
 :root {
   --dark:rgb(17,17,17);
+  --header-font: 'Oswald', sans-serif;
 }
 
 * {
@@ -40,6 +41,12 @@ body{
   display:flex;
   align-items:center;
   color:#fff;
+}
+.header-video-container h1,
+.header-video-container h2,
+.header-video-container h3{
+  /* font-family: 'Oswald', sans-serif; */
+  font-family: var(--header-font);
 }
 .header-video{
   position:absolute;
