@@ -248,3 +248,13 @@ section, .section-content{
      that fit in all devices & desktop. so i made it scroll (not-fixed) */
   /* background-position: 100% 1%; */
 }
+
+/* 
+boostrap grid:
+--------------------- 
+  Extra small < 576px	
+  Small ≥ 576px	
+  Medium ≥ 768px	
+  Large ≥ 992px	
+  Extra large ≥ 1200px
+ */
