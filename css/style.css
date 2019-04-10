@@ -111,7 +111,11 @@ body{
   border:#f8f9fa solid 5px;
 }
 
-
+.header-content .typing{
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 
 
 /****************** sections content */
