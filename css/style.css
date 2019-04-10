@@ -273,5 +273,8 @@ except these settings */
 
 @media(max-width: 767px) {
 
+  .header-content .rounded-circle{
+    border:#f8f9fa solid 3px;
+  }
 
 }
