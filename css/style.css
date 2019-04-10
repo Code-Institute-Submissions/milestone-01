@@ -236,6 +236,11 @@ section, .section-content{
 
 /****************** section-4 booking contact */
 
+.overlay-4-grd{
+  background: rgb(199, 201, 109);
+  background: linear-gradient(90deg, rgba(199, 201, 109, 0.8) 45%, rgba(255,255,255,0) 60%);
+}
+
 .section-4{
   background-image: url('../media/daniela-walk-road2.jpg');
   /* background-attachment: fixed; */
