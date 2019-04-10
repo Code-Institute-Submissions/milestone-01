@@ -189,6 +189,10 @@ body{
 
 /****************** section-3 gallery */
 
+.overlay-3-dark{
+  background-color:rgba(0, 0, 0, 0.8);
+  /* background-color:rgba(0, 0, 0, 0.3); */
+}
 
 .section-3{
   background-image: url('../media/album-antique-arrangement-699782-L.jpg');
