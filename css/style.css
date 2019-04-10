@@ -235,3 +235,11 @@ section, .section-content{
 
 
 /****************** section-4 booking contact */
+
+.section-4{
+  background-image: url('../media/daniela-walk-road2.jpg');
+  /* background-attachment: fixed; */
+  /* it's very tricky to find good image layout for parallax effect 
+     that fit in all devices & desktop. so i made it scroll (not-fixed) */
+  /* background-position: 100% 1%; */
+}
