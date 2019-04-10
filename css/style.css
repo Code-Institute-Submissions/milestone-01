@@ -112,6 +112,26 @@ body{
 
 /****************** sections content */
 
+section, .section-content{
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section-pd{
+  /* padding-top:3rem; */
+  padding-top: 1rem;
+  /* padding-bottom: 2rem; */
+  padding-bottom: 2.5rem;
+}
+
+.section-dark{
+  /* use white text color */
+  /* color: var(--light); */
+  color:white;
+}
+
 .section-light{
   /* color: rgb(17,17,17); */
   color:black;
@@ -123,6 +143,14 @@ body{
   font-weight: lighter;
   margin-bottom: 2rem;
   margin-top:3rem;
+}
+
+.overlay{
+  /* the overlay layer has to be absolute
+  and the parent container has to be relative */
+  position: absolute;
+  height:100%;
+  width:100%;
 }
 
 
