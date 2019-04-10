@@ -270,3 +270,8 @@ boostrap grid:
 /****************** Media Queries for mobile*/
 /* most of the responsive logic are done with BS4
 except these settings */
+
+@media(max-width: 767px) {
+
+
+}
