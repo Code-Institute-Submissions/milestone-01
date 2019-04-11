@@ -233,7 +233,7 @@ section, .section-content{
 .section-3{
   background-image: url('../media/album-antique-arrangement-699782-L.jpg');
   /* background-color: black; */
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 
 }
 
