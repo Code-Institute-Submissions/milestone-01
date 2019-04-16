@@ -40,6 +40,10 @@ body{
   letter-spacing: 0.1rem;
 }
 
+.nav-item {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2rem;
+}
 
 /****************** header video */
 
