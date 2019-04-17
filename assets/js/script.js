@@ -1,5 +1,23 @@
 $(document).ready(function () {
 
+    'use strict';
+
+
+
+    // ========================================================================= //
+    // Close the collapse-menu after selection 
+    // (works when menu is collapse or when hamburger menu is active)
+    // from stackoverflow.com discussion
+    // https://stackoverflow.com/questions/21240594/how-to-hide-my-collapse-bootstrap-3-navbar-with-click-on-body-when-collapse-is
+    // ========================================================================= //
+
+    $('.navbar-collapse a').click(function () {
+        $(".navbar-collapse").collapse('hide');
+        // console.log('clicked!!!');
+    });
+
+
+
     // ========================================================================= //
     // Typed Js
     // https://mattboldt.com/demos/typed-js/
