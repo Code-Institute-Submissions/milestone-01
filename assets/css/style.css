@@ -264,6 +264,10 @@ section, .section-content{
   /* background-position: 100% 1%; */
 }
 
+.disclaimer{
+  cursor:pointer;
+}
+
 /* 
 boostrap grid:
 --------------------- 

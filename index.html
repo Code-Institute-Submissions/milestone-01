@@ -27,7 +27,7 @@
         <!--  navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="main-nav">
             <div class="container">
-                <a class="navbar-brand text-light py-2" href="#home"><i class="fas fa-microphone-alt h3 mr-1"></i>
+                <a class="navbar-brand text-light py-2" href="#home" aria-label="home"><i class="fas fa-microphone-alt h3 mr-1"></i>
                     <span class="d-none d-md-inline">Daniela Andrade</span></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -38,16 +38,16 @@
                             <a class="nav-link" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#section-1">About</a>
+                            <a class="nav-link" href="#section-1" aria-label="about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#section-2">Music</a>
+                            <a class="nav-link" href="#section-2" aria-label="music">Music</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#section-3">Videos</a>
+                            <a class="nav-link" href="#section-3" aria-label="videos">Videos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#section-4">Contact</a>
+                            <a class="nav-link" href="#section-4" aria-label="contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -67,9 +67,9 @@
 
         <div class="header-content container">
             <div class="text-center text-md-left pl-md-5">
-                <div class="d-none d-md-block"><img src="assets/media/profile1.png" class="rounded-circle mb-3" height="150"
+                <div class="d-none d-md-block"><img src="assets/media/profile1.jpg" class="rounded-circle mb-3" height="150"
                         width="150" alt="profile picture"></div>
-                <div class="d-block d-md-none"><img src="assets/media/profile1.png" class="rounded-circle mb-3" height="80"
+                <div class="d-block d-md-none"><img src="assets/media/profile1.jpg" class="rounded-circle mb-3" height="80"
                         width="80" alt="profile picture"></div>
 
                 <h1 class="d-none d-md-block display-3">Daniela Andrade</h1>
@@ -458,7 +458,7 @@
         </div>
 
         <!-- Button trigger modal -->
-        <p class="text-center pb-3"><a class="text-light small" data-toggle="modal" data-target="#modalCenter" style="cursor: pointer;">Disclaimer</a></p>
+        <p class="text-center pb-3"><a class="text-light small disclaimer" data-toggle="modal" data-target="#modalCenter">Disclaimer</a></p>
 
         <!-- Modal -->
         <div class="modal fade" id="modalCenter" tabindex="-1" role="dialog" aria-labelledby="modalCenterTitle"
@@ -466,7 +466,7 @@
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header bg-dark text-light">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Disclaimer</h5>
+                        <h5 class="modal-title" id="modal-disclaimer">Disclaimer</h5>
                         <button type="button" class="close text-light" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
