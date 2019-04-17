@@ -251,12 +251,13 @@ section, .section-content{
 /****************** section-4 booking contact */
 
 .overlay-4-grd{
-  background: rgb(199, 201, 109);
-  background: linear-gradient(90deg, rgba(199, 201, 109, 0.8) 45%, rgba(255,255,255,0) 60%);
+  background: rgb(229, 220, 213);
+  background: linear-gradient(90deg, rgb(230, 221, 214) 45%, rgba(255,255,255,0) 60%);
 }
 
+
 .section-4{
-  background-image: url('../media/daniela-walk-road2.jpg');
+  background-image: url('../media/daniela-mic-right3.jpg');
   /* background-attachment: fixed; */
   /* it's very tricky to find good image layout for parallax effect 
      that fit in all devices & desktop. so i made it scroll (not-fixed) */
@@ -296,7 +297,7 @@ except these settings */
   }
   
   .overlay-4-grd{
-    background:rgba(199, 201, 109, 0.8);
+    background:rgba(229, 220, 213, 0.8);
     /* background:rgba(0, 0, 0, 0.8); */
   }
   
