@@ -251,8 +251,8 @@ section, .section-content{
 /****************** section-4 booking contact */
 
 .overlay-4-grd{
-  background: rgb(229, 220, 213);
-  background: linear-gradient(90deg, rgb(230, 221, 214) 45%, rgba(255,255,255,0) 60%);
+  background: rgb(251, 237, 226);
+  background: linear-gradient(90deg, rgb(251, 237, 226) 45%, rgba(255,255,255,0) 60%);
 }
 
 
@@ -297,7 +297,7 @@ except these settings */
   }
   
   .overlay-4-grd{
-    background:rgba(229, 220, 213, 0.8);
+    background:rgba(251, 237, 226, 0.8);
     /* background:rgba(0, 0, 0, 0.8); */
   }
   
