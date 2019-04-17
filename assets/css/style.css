@@ -280,6 +280,17 @@ except these settings */
 
 @media(max-width: 767px) {
 
+  .header-video{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../media/vdo-poster-2.jpg');
+  }
+
+  .header-video video{
+    display: none;
+  }
+
   .header-content .rounded-circle{
     border:#f8f9fa solid 3px;
   }
