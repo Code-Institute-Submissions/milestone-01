@@ -47,14 +47,28 @@ In addition, you may also use this section to discuss plans for additional featu
 In order to create modern and responsive website, these are technologies will be used:
 - HTML
 - CSS
+- [Google Fonts](https://fonts.google.com/)
+    - to style the website fonts.
 - [Bootstrap 4](https://getbootstrap.com/)
     - to simplify responsive layout for various screen sizes
 - [JQuery](https://jquery.com)
-    - to add Bootstrap form validation functionality
+    - to add Bootstrap form validation and scroll-spy functionality
+- [Fontawesome](https://fontawesome.com/):
+    - for all the icons
+- [gauger.io](https://gauger.io/fonticon/):
+    - for converting fontawesome icons to .ico file (used as fave-icon)
 - [TypedJs](https://mattboldt.com/demos/typed-js/)
     - to display typewriter effect in the page header
+- [YouTube](http://youtube.com)
+    - use youtube iFrame to embed video in the carousel
 
 ## Testing
+The website had been tested to multiple devices and multiple browsers:
+- iOS smartphones and tablet (Safari Browser)
+- Android smartphones and table (Firefox, Chrome and Opera browsers)
+- Desktop (Firefox, Chrome and Opera browsers with mobile and deskop layout)
+
+- Run Chrome DevTools audit to checkPerformance, Accessibility, Best Practices and SEO of the  website.
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
