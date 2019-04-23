@@ -20,14 +20,30 @@ In particular, as part of this section we recommend that you provide a list of U
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
-## Features
-
-
-
-
-
 
 ## Features
+This is single-page website. And each section will have different features and layouts. To add dynamic of the site, the background of each sections will alternate dark and light background. Also the paragraph will alternate left-aligned and right-aligned (except for mobile, see below [Mobile vs Desktop](#Mobile-vs-Desktop-Layout) layout)
+
+### HOME section
+The home section will have a video background. To reduce the data-usage for mobile users, static background will be used instead. The 'Daniela Andrade' text and profile image will be on the left side (about 1/3 of the page width). There is catchy 'typewriter-animation' effect.  Also there are links to the client's social media websites. Since this home secton will cover 100% of the viewport height, there is small arrow pointing down to indicate there's more content below. Clicking the down-arrow will bring to the About section 
+
+### ABOUT section
+The about section will have darker background and the content will be right-aligned. The background image will be on the left side. There is a gradient overlay on top of the background image. The purpose of the dark-overlay is to make the text easier to read 
+
+### 
+### Mobile vs Desktop Layout
+There are few differences between mobile and desktop, described as follow:
+
+|                |Mobile                          |Desktop                     |
+|----------------|-------------------------------|-----------------------------|
+|Navigation bar | navigation-bar menu will collapse to 'hamburger menu'|normal navigation-bar menu on the right side|
+|HOME section|will show static background. The text will be center-aligned | will have video background, the text will be left-aligned |
+|   | Profile icon will be a bit smaller | Profile icon will a bit bigger |
+|ABOUT section | The background image will be less visible. | Background image will be on the left side and content will be on the right side|
+|   | Text header and paragraph will be left-aligned | Text header and paragraph will be left-aligned |
+|   | Content is shorter (only 2 paragraph) | Content will be longer, 3 paragraph (Tablet) and 4 paragraph (Desktop)
+| CONTACT section | The background image will be less visible | Background image will be on the right side and the form will be on the left side. 
+
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
@@ -68,49 +84,59 @@ The website had been tested to multiple devices and multiple browsers:
 - Android smartphones and table (Firefox, Chrome and Opera browsers)
 - Desktop (Firefox, Chrome and Opera browsers with mobile and deskop layout)
 
-- Run Chrome DevTools audit to checkPerformance, Accessibility, Best Practices and SEO of the  website.
+Also run the audit within Chrome DevTools to checkPerformance, Accessibility, Best Practices and SEO of the  website.
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+### Navigation tests
+- Click the Brand (mic icon & Artist's Name on the top left) and the 'Home' button in the main navigation bar will scroll the page up to the beginning.
+- Click 'About' button will scroll the page to the About page
+- Click 'Music' button will scroll the page to the Music page
+- Click 'Video' button will scroll the page to the Video carousel page
+- Click 'Contact' button will scroll the page to the Contact Form page
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+#### Music Page tests
+- Under Album, Singles and EPs section, click the album artworks will open Amazon website for that particular album/single in new tab
+- Under Top Songs section, click the play button will play the audio clip for few seconds.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+#### Video Page tests
+- Click the left & right arrows in the carousel will show previous and next video.
+- Click the play button in the center of the image will play the video
+- Click the indicators will go slide the carousel to the correct carousel item (1st indicator will slide to 1st item, 2nd indicator to 2nd item and so on)
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+### Contact Page tests
+The form is not functioning since there is no back-end script to handle the request. It is out of the scope of this project. But the basic form validation (with Javascript) should work as follows: 
+- Submitting the empty form will show error messages in red about the required fields
+- Submitting the form with an invalid or empty name or email address or message will show a relevant error messages in red.
+- Submitting the form with all valid inputs will do nothing. It will show the valid messageg in green and the page might just reload. 
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Deployment
+This is a static website. No server configuration required on your hosting server.
+- To deploy this project, go to my github page: https://github.com/manuhal/milestone-01
+- Click the 'Clone or Download' button. And you copy the link and clone it to your folder on your desktop (with git-clone), for example:
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+    `git clone git@github.com:<USERNAME>/<REPOSITORY-NAME>`
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+- Or you can download the zip file and unzip it to your desktop
+- User FTP program/app (eg: [FileZilla](https://filezilla-project.org/)) and upload the folder to your web hosting of your choice. 
+- If you want to preview this website locally on your machine, simply open the index.html file with your web browser.
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text for section About was partially copied from https://heightline.com/daniela-andrade-age-wiki-ethnicity/
+
 
 ### Media
-- The photos used in this site were obtained from ...
+The imagges used in this site were obtained from:
+- https://www.pexels.com/
+- https://www.discogs.com/artist/4436499-Daniela-Andrade
+- https://www.youtube.com/channel/UC2vPHIqjFdpPVMa2PGwJuYg
+- https://www.amazon.com/Daniela-Andrade/e/B01DE1K6O6
 
 ### Acknowledgements
-
-- I received inspiration for this project from X
+I received inspiration for this project from:
+- https://themes.getbootstrap.com/
+- https://www.adobe.com/products/xd.html
 
 
 
