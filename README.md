@@ -30,7 +30,10 @@ The home section will have a video background. To reduce the data-usage for mobi
 ### ABOUT section
 The about section will have darker background and the content will be right-aligned. The background image will be on the left side. There is a gradient overlay on top of the background image. The purpose of the dark-overlay is to make the text easier to read 
 
-### 
+### MUSIC section
+This section will use Bootstrap's card and media components. 
+
+
 ### Mobile vs Desktop Layout
 There are few differences between mobile and desktop, described as follow:
 
