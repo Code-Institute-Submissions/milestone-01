@@ -1,7 +1,7 @@
 # Daniela Andrade site
 User Centric Frontend Development Milestone Project.
 
-A modern-responsive website for Daniela Andrade,singer, songwriter and youtube singer sensation. A website to show the world about her singing talent, her youtube videos and link to purchase her music. 
+A modern-responsive website for the client, Daniela Andrade, singer, songwriter and youtube singer sensation. A website to show the world about her singing talent, to promte her songs, videos and link to purchase her music. 
 
 
 
@@ -9,7 +9,21 @@ A modern-responsive website for Daniela Andrade,singer, songwriter and youtube s
 
 
 ### The client's goal
-The client want to create a website, to promote her music, reach more people to know her music. People can watch her youtube video and  listen to her music on spotify and hopefully will purchase her music via Amazon. Also the client wants people to sign-up and provide email address to get in-touch for upcoming news or events.  The client also want a simple, modern and response website for different size of screens. And provide links to her social media websites.
+Here are the client's goals / requests:
+- A simple, easy to use, modern and response website for different size of screens. 
+- A website to promote her music, reach more people to know her music. 
+- Links to client's social media websites.
+- People can watch her youtube video and listen to her music on spotify and hopefully will purchase her music via Amazon. 
+- Contact form, where people can sign-up and provide email address to get in-touch for upcoming news or events. Or to send message for booking requests
+
+
+### Solution
+- Create single-page, modern and responsive website. 
+- Since the artist was born in the 1992, so the main target users for this website will most likely the Millennials (Generation Y). So it's important to include social media links such as Instagram, Facebook, Twitter, Youtube and Spotify. 
+- Also the website will contains a lot of multimedia elements (pictures, audio and video) and links to Amazon website where users can purchase the client's music.
+- The site will also include web form where users can sign-up or contact her (there is no back-end code for the form, so the form will not working since it is out of scope of the project)
+- Most of her songs have mellow, reflective and gloomy feel. So the color theme of this website will balance, combination of dark and light background which bring  match the mellow mood of most 
+
 
 
 ### Wireframes
