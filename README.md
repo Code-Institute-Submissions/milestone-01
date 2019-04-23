@@ -7,7 +7,7 @@ A modern-responsive website for Daniela Andrade,singer, songwriter and youtube s
  
 ## UX
 
-### The client
+### The client's goal
 The client want to create a website, to promote her music, reach more people to know her music. People can watch her youtube video and  listen to her music on spotify and hopefully will purchase her music via Amazon. Also the client wants people to sign-up and provide email address to get in-touch for upcoming news or events.  The client also want a simple, modern and response website for different size of screens. And provide links to her social media websites.
 
 ### Wireframes
@@ -21,21 +21,51 @@ In particular, as part of this section we recommend that you provide a list of U
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 
+
 ## Features
 This is single-page website. And each section will have different features and layouts. To add dynamic of the site, the background of each sections will alternate dark and light background. Also the paragraph will alternate left-aligned and right-aligned (except for mobile, see below [Mobile vs Desktop](#Mobile-vs-Desktop-Layout) layout)
 
+
 ### HOME section
-The home section will have a video background. To reduce the data-usage for mobile users, static background will be used instead. The 'Daniela Andrade' text and profile image will be on the left side (about 1/3 of the page width). There is catchy 'typewriter-animation' effect.  Also there are links to the client's social media websites. Since this home secton will cover 100% of the viewport height, there is small arrow pointing down to indicate there's more content below. Clicking the down-arrow will bring to the About section 
+- The home section will have a video background. To reduce the data-usage for mobile users, static background will be used instead. 
+- The 'Daniela Andrade' text and profile image will be on the left side (about 1/3 of the page width). 
+- There is catchy 'typewriter-animation' effect just to spice-up the site a little bit.  
+- There are links to the client's social media websites. 
+- Since this home secton will cover 100% of the viewport height, there is small arrow pointing down to indicate there's more content below. Clicking the down-arrow will bring to the About section.
+
 
 ### ABOUT section
-The about section will have darker background and the content will be right-aligned. The background image will be on the left side. There is a gradient overlay on top of the background image. The purpose of the dark-overlay is to make the text easier to read 
+- The about section will have darker background and the content will be right-aligned. 
+- The background image will be on the left side. 
+- There is a light to dark gradient overlay on top of the background image so the white text will be easier to read on darker overlay background. 
+
 
 ### MUSIC section
-This section will use Bootstrap's card and media components. 
+- This music section has lighter theme background. The text are left-aligned.
+- Use Bootstrap's card and media components. The card components are used to display the album artwork. Clicking the cards will bring users to the amazon website to buy or listen the album or singles. 
+- Also there are embedded songs clips from the client's spotify channel which allow users to listen and also visit the client's spotify channel. 
+- There is parallax background for this music section.
 
+
+### VIDEO section.
+- This video section has darker background and light text and the text are right-aligned. 
+- Use Bootstrap's carousel component. The carousel item contains youtube video (use the youtube iframe) so users can play and watch the video directly on the website. Clicking the video title (on the top left corner) will bring users to client's youtube channel. 
+- There is parallax background for this video section.
+
+
+### CONTACT section
+- The contact section has lighter background with dark text and the text are left-aligned. 
+- Use Bootstrap's form classes. The layout of the form will be on the left side and the background (with gradient overlay) will be on the right side. 
+- There is custom form validation with the javascript. The sample cusom form validation code are provided in the bootstrap website:
+`https://getbootstrap.com/docs/4.3/components/forms/?#validation`
+
+
+### FOOTER section
+- The same social media links as in the home section are also available in the footer section
+- There is disclaimer for the website and use Bootstrap's modal component.
 
 ### Mobile vs Desktop Layout
-There are few differences between mobile and desktop, described as follow:
+There are few differences layout between mobile and desktop, described as follow:
 
 |                |Mobile                          |Desktop                     |
 |----------------|-------------------------------|-----------------------------|
@@ -47,19 +77,6 @@ There are few differences between mobile and desktop, described as follow:
 |   | Content is shorter (only 2 paragraph) | Content will be longer, 3 paragraph (Tablet) and 4 paragraph (Desktop)
 | CONTACT section | The background image will be less visible | Background image will be on the right side and the form will be on the left side. 
 
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-- Another feature idea
 
 ## Technologies Used
 
@@ -78,8 +95,10 @@ In order to create modern and responsive website, these are technologies will be
     - for converting fontawesome icons to .ico file (used as fave-icon)
 - [TypedJs](https://mattboldt.com/demos/typed-js/)
     - to display typewriter effect in the page header
-- [YouTube](http://youtube.com)
-    - use youtube iFrame to embed video in the carousel
+- [YouTube](https://www.youtube.com)
+    - use youtube iFrame to embed video in the video section
+- [Spotify](https://www.spotify.com)
+    - use spotify iFrame to embed audio in the music section
 
 ## Testing
 The website had been tested to multiple devices and multiple browsers:
