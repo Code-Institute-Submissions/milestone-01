@@ -78,6 +78,7 @@ There are few differences layout between mobile and desktop, described as follow
 | CONTACT section | The background image will be less visible | Background image will be on the right side and the form will be on the left side. 
 
 
+
 ## Technologies Used
 
 In order to create modern and responsive website, these are technologies will be used:
@@ -100,6 +101,8 @@ In order to create modern and responsive website, these are technologies will be
 - [Spotify](https://www.spotify.com)
     - use spotify iFrame to embed audio in the music section
 
+
+
 ## Testing
 The website had been tested to multiple devices and multiple browsers:
 - iOS smartphones and tablet (Safari Browser)
@@ -108,6 +111,7 @@ The website had been tested to multiple devices and multiple browsers:
 
 Also run the audit within Chrome DevTools to checkPerformance, Accessibility, Best Practices and SEO of the  website.
 
+
 ### Navigation tests
 - Click the Brand (mic icon & Artist's Name on the top left) and the 'Home' button in the main navigation bar will scroll the page up to the beginning.
 - Click 'About' button will scroll the page to the About page
@@ -115,20 +119,24 @@ Also run the audit within Chrome DevTools to checkPerformance, Accessibility, Be
 - Click 'Video' button will scroll the page to the Video carousel page
 - Click 'Contact' button will scroll the page to the Contact Form page
 
+
 #### Music Page tests
 - Under Album, Singles and EPs section, click the album artworks will open Amazon website for that particular album/single in new tab
-- Under Top Songs section, click the play button will play the audio clip for few seconds.
+- Under Cover Songs section, click the play button should play the embedded audio clips from Spotify.
+
 
 #### Video Page tests
 - Click the left & right arrows in the carousel will show previous and next video.
 - Click the play button in the center of the image will play the video
-- Click the indicators will go slide the carousel to the correct carousel item (1st indicator will slide to 1st item, 2nd indicator to 2nd item and so on)
+- Click the indicators will go slide the carousel to the correct carousel item (1st indicator will slide to 1st item, 2nd indicator to 2nd item and so on).
+
 
 ### Contact Page tests
 The form is not functioning since there is no back-end script to handle the request. It is out of the scope of this project. But the basic form validation (with Javascript) should work as follows: 
 - Submitting the empty form will show error messages in red about the required fields
 - Submitting the form with an invalid or empty name or email address or message will show a relevant error messages in red.
 - Submitting the form with all valid inputs will do nothing. It will show the valid messageg in green and the page might just reload. 
+
 
 
 ## Deployment
@@ -142,8 +150,11 @@ This is a static website. No server configuration required on your hosting serve
 - User FTP program/app (eg: [FileZilla](https://filezilla-project.org/)) and upload the folder to your web hosting of your choice. 
 - If you want to preview this website locally on your machine, simply open the index.html file with your web browser.
 
+
+
 ## Credits
 
+Special thanks to 
 ### Content
 - The text for section About was partially copied from https://heightline.com/daniela-andrade-age-wiki-ethnicity/
 
@@ -155,10 +166,15 @@ The imagges used in this site were obtained from:
 - https://www.youtube.com/channel/UC2vPHIqjFdpPVMa2PGwJuYg
 - https://www.amazon.com/Daniela-Andrade/e/B01DE1K6O6
 
+
 ### Acknowledgements
-I received inspiration for this project from:
-- https://themes.getbootstrap.com/
-- https://www.adobe.com/products/xd.html
+- Special thanks to my mentor [Simen Daehlin](https://github.com/Eventyret) for his tips, ideas and other helpful informations when making this site.
+- I received inspiration for this project from:
+    - https://themes.getbootstrap.com/
+    - https://www.adobe.com/products/xd.html
+    - http://cnncreativemarketing.com/project/chasinglife/
+
+
 
 
 
