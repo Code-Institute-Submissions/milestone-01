@@ -3,12 +3,14 @@ User Centric Frontend Development Milestone Project.
 
 A modern-responsive website for Daniela Andrade,singer, songwriter and youtube singer sensation. A website to show the world about her singing talent, her youtube videos and link to purchase her music. 
 
-(Essentially, this part is your sales pitch.)
- 
+
+
 ## UX
+
 
 ### The client's goal
 The client want to create a website, to promote her music, reach more people to know her music. People can watch her youtube video and  listen to her music on spotify and hopefully will purchase her music via Amazon. Also the client wants people to sign-up and provide email address to get in-touch for upcoming news or events.  The client also want a simple, modern and response website for different size of screens. And provide links to her social media websites.
+
 
 ### Wireframes
 
