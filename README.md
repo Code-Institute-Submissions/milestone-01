@@ -33,7 +33,6 @@ The user of this website are:
 - Since the artist was born in the 1992, so the main target users for this website will be the Millennials (Generation Y). So it's important to include social media links such as Instagram, Facebook, Twitter, Youtube and Spotify. 
 - Also the website will contains a lot of multimedia elements (pictures, audio and video) and links to Amazon website where users can purchase her music.
 - The site will also include web form where users can sign-up or contact her (there is no back-end code for the form, so the form will not working since it is out of scope of the project)
-- Most of her songs have mellow, reflective and gloomy feel. So the color theme of this website will balance, combination of dark and light background with pictures that match the feel of her music.
 
 
 ### Wireframes
@@ -57,26 +56,26 @@ This is single-page website. And each section will have different features and l
 
 
 ### ABOUT section
-- The about section will have darker background and the content will be right-aligned. 
+- The about section will have dark background, white text and the content will be right-aligned. 
 - The background image will be on the left side. 
 - There is a light to dark gradient overlay on top of the background image so the white text will be easier to read on darker overlay background. 
 
 
 ### MUSIC section
-- This music section has lighter theme background. The text are left-aligned.
-- Use Bootstrap's card and media components. The card components are used to display the album artwork. Clicking the cards will bring users to the amazon website to buy or listen the album or singles. 
-- Also there are embedded songs clips from the client's spotify channel which allow users to listen and also visit the client's spotify channel. 
+- This music section has lighter theme background, black text and the text are left-aligned.
+- Use Bootstrap's card and media components. The card components are used to display the album or single artworks. Clicking the cards will bring users to the amazon website to buy or listen the album or singles. 
+- Also there are embedded songs clips from the client's spotify channel. 
 - There is parallax background for this music section.
 
 
 ### VIDEO section.
-- This video section has darker background and light text and the text are right-aligned. 
+- This video section has darker background, white text and the text are right-aligned. 
 - Use Bootstrap's carousel component. The carousel item contains youtube video (use the youtube iframe) so users can play and watch the video directly on the website. Clicking the video title (on the top left corner) will bring users to client's youtube channel. 
 - There is parallax background for this video section.
 
 
 ### CONTACT section
-- The contact section has lighter background with dark text and the text are left-aligned. 
+- The contact section has lighter background with black text and the text are left-aligned. 
 - Use Bootstrap's form classes. The layout of the form will be on the left side and the background (with gradient overlay) will be on the right side. 
 - There is custom form validation with the javascript. The sample cusom form validation code are provided in the bootstrap website:
 `https://getbootstrap.com/docs/4.3/components/forms/?#validation`
@@ -85,6 +84,7 @@ This is single-page website. And each section will have different features and l
 ### FOOTER section
 - The same social media links as in the home section are also available in the footer section
 - There is disclaimer for the website and use Bootstrap's modal component.
+
 
 ### Mobile vs Desktop Layout
 There are few differences layout between mobile and desktop, described as follow:
@@ -158,6 +158,11 @@ The form is not functioning since there is no back-end script to handle the requ
 - Submitting the empty form will show error messages in red about the required fields
 - Submitting the form with an invalid or empty name or email address or message will show a relevant error messages in red.
 - Submitting the form with all valid inputs will do nothing. It will show the valid messageg in green and the page might just reload. 
+
+### Known issues
+- The parallax background on Music and Video sections are not working on some mobile devices.
+- There are some `ERR_BLOCKED_BY_CLIENT` error when the Chrome DevTools > console is open. This error is related to the ad-blocker app on the browser. See more detail about it here:
+https://stackoverflow.com/questions/23341765/getting-neterr-blocked-by-client-error-on-some-ajax-calls/
 
 
 
