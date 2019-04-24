@@ -17,7 +17,7 @@ The client of this project is Daniela Andrade.
 
 
 ### Who is the users?
-The user of this website are:
+The users of this website are:
 - Daniela fans.
 - Music lovers, Youtube watchers and Spotify listeners with all different background, gender and ages.
 
