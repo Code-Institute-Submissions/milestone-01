@@ -22,21 +22,14 @@ Here are the client's goals / requests:
 - Since the artist was born in the 1992, so the main target users for this website will most likely the Millennials (Generation Y). So it's important to include social media links such as Instagram, Facebook, Twitter, Youtube and Spotify. 
 - Also the website will contains a lot of multimedia elements (pictures, audio and video) and links to Amazon website where users can purchase the client's music.
 - The site will also include web form where users can sign-up or contact her (there is no back-end code for the form, so the form will not working since it is out of scope of the project)
-- Most of her songs have mellow, reflective and gloomy feel. So the color theme of this website will balance, combination of dark and light background which bring  match the mellow mood of most 
+- Most of her songs have mellow, reflective and gloomy feel. So the color theme of this website will balance, combination of dark and light background with pictures that match the feel of her music.
 
 
 
 ### Wireframes
-
---------
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
-
-
+Here are the wireframes for desktop and mobile layout:
+- [Desktop]()
+- [Mobile]()
 
 ## Features
 This is single-page website. And each section will have different features and layouts. To add dynamic of the site, the background of each sections will alternate dark and light background. Also the paragraph will alternate left-aligned and right-aligned (except for mobile, see below [Mobile vs Desktop](#Mobile-vs-Desktop-Layout) layout)
