@@ -205,6 +205,8 @@ The imagges used in this site were obtained from:
     - http://cnncreativemarketing.com/project/chasinglife/
 
 
+### Disclaimer
+The material provided on this site is for strictly educational purposes only.
 
 
 
