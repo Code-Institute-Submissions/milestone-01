@@ -1,6 +1,8 @@
 # Daniela Andrade website
 User Centric Frontend Development Milestone Project.
 
+![Daniela Andrade](https://milestone01.gallerio.us/assets/media/milestone01-readme-optimize.gif)
+
 A modern-responsive website for Daniela Andrade, singer, songwriter and youtube singer sensation. A website to show the world about her singing talent, to promte her songs, videos and link to purchase her music. 
 
 
@@ -14,7 +16,7 @@ The client of this project is Daniela Andrade.
 
 ### Who is the users?
 The user of this website are:
-- Daniela fans and all other people, all gender
+- Daniela fans.
 - Music lovers, Youtube watchers and Spotify listeners with all different background, gender and ages.
 
 
