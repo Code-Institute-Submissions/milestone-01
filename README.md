@@ -25,11 +25,13 @@ Here are the client's goals / requests:
 - Most of her songs have mellow, reflective and gloomy feel. So the color theme of this website will balance, combination of dark and light background with pictures that match the feel of her music.
 
 
-
 ### Wireframes
 Here are the wireframes for desktop and mobile layout:
-- [Desktop]()
-- [Mobile]()
+- [Desktop](https://milestone01.gallerio.us/assets/media/sketch-desktop.jpg)
+- [Mobile](https://milestone01.gallerio.us/assets/media/sketch-mobile.jpg)
+
+
+
 
 ## Features
 This is single-page website. And each section will have different features and layouts. To add dynamic of the site, the background of each sections will alternate dark and light background. Also the paragraph will alternate left-aligned and right-aligned (except for mobile, see below [Mobile vs Desktop](#Mobile-vs-Desktop-Layout) layout)
