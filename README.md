@@ -80,13 +80,13 @@ There are few differences layout between mobile and desktop, described as follow
 
 |                |Mobile                          |Desktop                     |
 |----------------|-------------------------------|-----------------------------|
-|Navigation bar | navigation-bar menu will collapse to 'hamburger menu'|normal navigation-bar menu on the right side|
-|HOME section|will show static background. The text will be center-aligned | will have video background, the text will be left-aligned |
+|Navigation bar | Navigation-bar menu will collapse to 'hamburger menu' icon|Navigation-bar with menu items on the right side|
+|HOME section|Background is static image (to reduce data-usage for mobile users) and the text will be center-aligned | Background is video background and the text will be left-aligned |
 |   | Profile icon will be a bit smaller | Profile icon will a bit bigger |
-|ABOUT section | The background image will be less visible. | Background image will be on the left side and content will be on the right side|
-|   | Text header and paragraph will be left-aligned | Text header and paragraph will be left-aligned |
-|   | Content is shorter (only 2 paragraph) | Content will be longer, 3 paragraph (Tablet) and 4 paragraph (Desktop)
-| CONTACT section | The background image will be less visible | Background image will be on the right side and the form will be on the left side. 
+|ABOUT section | The background image will be about 10% visible. | Background image will be 100% visible on the left side and content will be on the right side|
+|   | Text header and paragraph will be left-aligned | Text header and paragraph will be right-aligned |
+|   | Content is less (only 2 paragraph) | Content is more; 3 paragraph (Tablet) and 4 paragraph (Desktop)
+| CONTACT section | The background image will be about 10% visible | Background image will be 100% visible on the right side and the form will be on the left side. 
 
 
 
@@ -106,7 +106,7 @@ In order to create modern and responsive website, these are technologies will be
 - [gauger.io](https://gauger.io/fonticon/):
     - for converting fontawesome icons to .ico file (used as fave-icon)
 - [TypedJs](https://mattboldt.com/demos/typed-js/)
-    - to display typewriter effect in the page header
+    - to display typewriter effect in the page header (home section)
 - [YouTube](https://www.youtube.com)
     - use youtube iFrame to embed video in the video section
 - [Spotify](https://www.spotify.com)
@@ -165,7 +165,7 @@ This is a static website. No server configuration required on your hosting serve
 
 ## Credits
 
-Special thanks to 
+
 ### Content
 - The text for section About was partially copied from https://heightline.com/daniela-andrade-age-wiki-ethnicity/
 
@@ -180,7 +180,7 @@ The imagges used in this site were obtained from:
 
 ### Acknowledgements
 - Special thanks to my mentor [Simen Daehlin](https://github.com/Eventyret) for his tips, ideas and other helpful informations when making this site.
-- I received inspiration for this project from:
+- I received inspiration for this project from these following sites:
     - https://themes.getbootstrap.com/
     - https://www.adobe.com/products/xd.html
     - http://cnncreativemarketing.com/project/chasinglife/
