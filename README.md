@@ -31,7 +31,7 @@ The users of this website are:
 
 
 ### Solution
-- Create single-page (easy to use and less complex), modern and responsive website with the latest framework.
+- Create single-page (which is easier to navigate and less complex), modern and responsive website.
 - Since the artist was born in the 1992, so the main target users for this website will be the Millennials (Generation Y). So it's important to include social media links such as Instagram, Facebook, Twitter, Youtube and Spotify. 
 - Also the website will contains a lot of multimedia elements (pictures, audio and video) and links to Amazon website where users can purchase her music.
 - The site will also include web form where users can sign-up or contact her (there is no back-end code for the form, so the form will not working since it is out of scope of the project)
@@ -163,6 +163,7 @@ The form is not functioning since there is no back-end script to handle the requ
 
 ### Known issues
 - The parallax background on Music and Video sections are not working on some mobile devices.
+- The contact form is not working since there is no back-end code provided. It is out of scope of the project.
 - There are some `ERR_BLOCKED_BY_CLIENT` error when the Chrome DevTools > console is open. This error is related to the ad-blocker app on the browser. See more detail about it here:
 https://stackoverflow.com/questions/23341765/getting-neterr-blocked-by-client-error-on-some-ajax-calls/
 
