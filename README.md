@@ -5,6 +5,8 @@ User Centric Frontend Development Milestone Project.
 
 A modern-responsive website for Daniela Andrade, singer, songwriter and youtube singer sensation. A website to show the world about her singing talent, to promte her songs, videos and link to purchase her music. 
 
+Click <a href="https://milestone01.gallerio.us/" target="_blank">here</a> to see the live demo.
+
 
 
 ## UX
