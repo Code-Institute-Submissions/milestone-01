@@ -44,7 +44,6 @@ Here are the wireframes for desktop and mobile layout:
 
 
 
-
 ## Features
 This is single-page website. And each section will have different features and layouts. To add dynamic of the site, the background of each sections will alternate dark and light background. Also the paragraph will alternate left-aligned and right-aligned (except for mobile, see below [Mobile vs Desktop](#Mobile-vs-Desktop-Layout) layout)
 
@@ -167,14 +166,26 @@ https://stackoverflow.com/questions/23341765/getting-neterr-blocked-by-client-er
 
 ## Deployment
 This is a static website. No server configuration required on your hosting server.
-- To deploy this project, go to my github page: https://github.com/manuhal/milestone-01
-- Click the 'Clone or Download' button. And you copy the link and clone it to your folder on your desktop (with git-clone), for example:
+
+### Deploy the project to GitHub pages:
+- Login and go to my GitHub repository at https://github.com/manuhal/milestone-01
+- Go to Settings tab/menu
+- Scroll down to **GitHub Pages** section
+- Under **Source**, click the drop-down menu and select source from none to **master branch** 
+- The page will refresh once, scroll back to **GitHub Pages** section and you will see message 'Your site is ready to be published at https://manuhal.github.io/milestone-01/.'
+
+
+### Deploy the project to web hosting
+- To deploy this project to a web hosting, login and go to my github repository page: https://github.com/manuhal/milestone-01
+- Click the **Clone** or **Download** button.
+- To **clone** it, copy the link. Open command-promp (in Windows) or terminal (in Mac), navigate to a folder on your desktop and run git-clone, for example:
 
     `git clone git@github.com:<USERNAME>/<REPOSITORY-NAME>`
 
-- Or you can download the zip file and unzip it to your desktop
-- User FTP program/app (eg: [FileZilla](https://filezilla-project.org/)) and upload the folder to your web hosting of your choice. 
-- If you want to preview this website locally on your machine, simply open the index.html file with your web browser.
+- Or you can **download** the zip file and unzip it to a folder on your desktop.
+- Use FTP program/app (eg: [FileZilla](https://filezilla-project.org/)) and upload that folder to a web hosting server of your choice. 
+- In this case, I ftp that folder to a web-hosting on this address: https://milestone01.gallerio.us/
+- If you want to preview this website locally on your machine, simply go that folder and open index.html file with your web browser.
 
 
 
