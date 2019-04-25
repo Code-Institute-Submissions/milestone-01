@@ -1,15 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:400,500,700');
 
-/* 
-font-family: 'Oswald', sans-serif;
- */
+* {
+  box-sizing: border-box;
+}
 
 html {
   scroll-behavior: smooth;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 body{
@@ -92,9 +88,7 @@ body{
 
 .arrow-down{
   position: absolute;
-  /* bottom: 5%; */
   bottom: 5vh;
-  /* left:49%; */
   left:49vw;
   font-size: 1.5rem;
   animation: bounce .3s linear infinite alternate;
@@ -102,15 +96,11 @@ body{
 }
 
 @-webkit-keyframes bounce{
-  /* from {bottom: 6%;}
-  to {bottom:5%;} */
   from {bottom: 6vh;}
   to {bottom:5vh;}
   }
 
 @keyframes bounce {
-  /* from {bottom: 6%;}
-  to {bottom:5%;} */
   from {bottom: 6vh;}
   to {bottom:5vh;}
   }
@@ -136,21 +126,16 @@ section, .section-content{
 }
 
 .section-pd{
-  /* padding-top:3rem; */
   padding-top: 1rem;
-  /* padding-bottom: 2rem; */
   padding-bottom: 2.5rem;
 }
 
 .section-dark{
-  /* use white text color */
-  /* color: var(--light); */
-  color:white;
+  color:#fff;
 }
 
 .section-light{
-  /* color: rgb(17,17,17); */
-  color:black;
+  color:#000;
 }
 
 .section-hdr{
@@ -186,17 +171,15 @@ section, .section-content{
 
 .overlay-2{
   background-color:rgba(236, 229, 229, 0.7);
-  /* background-color:rgba(218, 157, 186, 0.3); */
 }
 
 .section-2{
-  background-image: url('../media/blur-card-conceptual-185933-trimd.jpg');
+  background-image: url('../media/blur-card-conceptual-bg.jpg');
   background-attachment: fixed;
   border: none;
 }
 
 .section-2 .card, .section-2 .media{
-  /* background-color: rgba(233, 229, 229, 0.397); */
   background-color: rgba(172, 170, 170, 0.4);
 }
 
@@ -240,12 +223,10 @@ section, .section-content{
 
 .overlay-3-dark{
   background-color:rgba(0, 0, 0, 0.8);
-  /* background-color:rgba(0, 0, 0, 0.3); */
 }
 
 .section-3{
-  background-image: url('../media/album-antique-arrangement-699782-L.jpg');
-  /* background-color: black; */
+  background-image: url('../media/album-antique-bg.jpg');
   background-attachment: fixed;
 
 }
@@ -265,10 +246,8 @@ section, .section-content{
 
 .section-4{
   background-image: url('../media/daniela-mic-right3.jpg');
-  /* background-attachment: fixed; */
   /* it's very tricky to find good image layout for parallax effect 
      that fit in all devices & desktop. so i made it scroll (not-fixed) */
-  /* background-position: 100% 1%; */
 }
 
 .disclaimer{
@@ -313,14 +292,11 @@ except these settings */
   }
 
   .overlay-1-grd{
-    /* background-color:rgba(255, 255, 255, 0.3); */
     background:rgba(0, 0, 0, 0.8);
-    /* background-color:rgba(255, 255, 0, 0.3); */
   }
   
   .overlay-4-grd{
     background:rgba(251, 237, 226, 0.8);
-    /* background:rgba(0, 0, 0, 0.8); */
   }
   
 }
