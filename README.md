@@ -120,10 +120,6 @@ In order to create modern and responsive website, these are technologies will be
     - for converting fontawesome icons to .ico file (used as fave-icon)
 - [TypedJs](https://mattboldt.com/demos/typed-js/)
     - to display typewriter effect in the page header (home section)
-- [YouTube](https://www.youtube.com)
-    - use youtube iFrame to embed video in the video section
-- [Spotify](https://www.spotify.com)
-    - use spotify iFrame to embed audio in the music section
 
 
 
@@ -194,6 +190,7 @@ The imagges used in this site were obtained from:
 - https://www.pexels.com/
 - https://www.discogs.com/artist/4436499-Daniela-Andrade
 - https://www.youtube.com/channel/UC2vPHIqjFdpPVMa2PGwJuYg
+- https://open.spotify.com/artist/0WfaItAbs4vlgIA1cuqGtJ
 - https://www.amazon.com/Daniela-Andrade/e/B01DE1K6O6
 
 
