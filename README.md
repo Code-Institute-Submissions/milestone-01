@@ -78,8 +78,7 @@ This is single-page website. And each section will have different features and l
 ### CONTACT section
 - The contact section has lighter background with black text and the text are left-aligned. 
 - Use Bootstrap's form classes. The layout of the form will be on the left side and the background (with gradient overlay) will be on the right side. 
-- There is custom form validation with the javascript. The sample cusom form validation code are provided in the bootstrap website:
-`https://getbootstrap.com/docs/4.3/components/forms/?#validation`
+- There is custom form validation with the javascript. The sample cusom form validation code are provided in the bootstrap website: https://getbootstrap.com/docs/4.3/components/forms/?#validation
 
 
 ### FOOTER section
@@ -109,14 +108,14 @@ In order to create modern and responsive website, these are technologies will be
 - CSS
 - [Google Fonts](https://fonts.google.com/)
     - to style the website fonts.
-- [Bootstrap 4](https://getbootstrap.com/)
+- [Bootstrap](https://getbootstrap.com/)
     - to simplify responsive layout for various screen sizes
 - [JQuery](https://jquery.com)
     - to add Bootstrap form validation and scroll-spy functionality
 - [Fontawesome](https://fontawesome.com/):
     - for all the icons
 - [gauger.io](https://gauger.io/fonticon/):
-    - for converting fontawesome icons to .ico file (used as fave-icon)
+    - for converting fontawesome icons to .ico file (used as favicon)
 - [TypedJs](https://mattboldt.com/demos/typed-js/)
     - to display typewriter effect in the page header (home section)
 
