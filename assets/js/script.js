@@ -25,11 +25,6 @@ $(document).ready(function () {
 
     var typed = new Typed('.typed', {
         strings: [
-            // "Daniela.",
-            // "A Singer.",
-            // "A Songwriter.",
-            // "A Canadian.",
-            // "A Dreamer.",
             "Singer",
             "Songwriter",
             "Born in Canada",
@@ -62,4 +57,4 @@ $(document).ready(function () {
         }, false);
     })();
 
-})//end of docment ready
+})//end of document ready
